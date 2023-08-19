@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-03-httpModule-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r dotenv/config index.js",
+    "start": "node index.js"
+  },
+  "author": "Alexander Bulatov",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
